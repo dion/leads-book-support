@@ -10,7 +10,7 @@
 <main>
   <nav><a href="./">Support</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a><a href="delete-account.html">Delete account</a></nav>
   <h1>Privacy policy</h1>
-  <p class="muted">Leads Book (com.jellopops.leadsbookmobile) by Dions Apps · Effective November 10, 2026</p>
+  <p class="muted">Leads Book (com.jellopops.leadsbookmobile) by Dions Apps · Effective November 11, 2026</p>
 
   <p>Leads Book helps you track leads, follow-ups and appointments. This policy explains what the app stores, what leaves your device, and how to delete it.</p>
 
@@ -27,11 +27,15 @@
   <p>The app works without an account. If you create one or sign in:</p>
   <ul>
     <li>Your <strong>email address and password</strong> are handled by Amazon Cognito to create and secure your account. Your email is used for sign-in and to send confirmation and password reset codes.</li>
-    <li>For each lead, the app uploads the name, phone number, email address, Instagram and WhatsApp handles, status, notes, follow-up date, reminder, schedule history and timestamps to our server on Amazon Web Services (US East region). Lists, the activity log, your profile and your photo are not uploaded.</li>
+    <li>For each lead, the app uploads the name, phone number, email address, Instagram and WhatsApp handles, status, notes, follow-up date, reminder, schedule history and timestamps to our server on Amazon Web Services (US East region). Your profile, your photo and your message templates are not uploaded.</li>
+    <li>With <strong>Leads Book Pro</strong>, the app also uploads your Lists (name, timing note and which leads are in each) and your activity log (calls, messages, status changes and notes you logged, with the lead's name and the time), so they sync across your devices. On the free plan these stay on your device. Activity log entries are deleted from the cloud a year after they are uploaded.</li>
     <li>All data is sent over encrypted HTTPS connections and is accessible only with your signed-in account.</li>
     <li>Server logs record technical request details (such as time, route, status and your account ID) for 14 days for troubleshooting. They do not contain your lead details.</li>
     <li>Leads Book shares accounts with our Contacts Book app: the same email and password sign in to both, and leads synced from one appear in the other.</li>
   </ul>
+
+  <h2>Purchases</h2>
+  <p>Leads Book Pro is bought through Google Play, which handles the payment; we never see your card or billing details. The app learns from Google Play which plan you have. If you are signed in when you buy, or sign in later, the app sends the purchase's product and its Google Play purchase token to our server, which checks it with Google and stores the plan, its expiry and the token with your account so that cloud sync knows you have Pro. A one-way hash of your account ID is attached to the purchase in Google Play so a purchase can't be claimed by another account. Deleting your account deletes this record too.</p>
 
   <h2>What we don't do</h2>
   <ul>
